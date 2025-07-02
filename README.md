@@ -1,15 +1,11 @@
 # Rubik's Cube Solver
-#### Video Demo:  https://www.youtube.com/watch?v=A6JyElruhwE
-#### Demo: http://d4m4s74.pythonanywhere.com/
-#### Description:
-My Final Project for CS50 is a "Human Method" Rubik's Cube Solver.  
+
 This means that the entered Rubik's Cube is solved using a method a human could use (CFOP), with clear steps: Cross, F2L, OLL and PLL.  
 The final product consists of a shell application, a C library for use in other projects, and a web interface writen in Flask, HTML, CSS and Javascript.
 
 I decided to create a Rubik's Cube solver because I have made a Sudoku solver before in C++, and the cube was a step up.  
 Instead of a 2d plane, I have a semi-3d plane, with edges and corners.  
-Because AI solvers have been done, and I'm not confident enough of my AI writing abilities I decided to make the program solve the cube the way I do:  
-Cross, F2L, OLL and PLL
+
 
 ## How to use
 ### Solver
@@ -278,7 +274,7 @@ solver.cleanup_last_layer()
 
 ```
 ## Structure
-CS50 wants me to explain what every file does, and what's in it. So this readme is longer than all but 3 of my files.
+
 <pre>
 ├── <a href="#apppy">app.py</a>  
 ├── bin  
@@ -518,7 +514,6 @@ Everything else is quite default except for the colorpicker. If you look at the 
 I also spent a week or 2 making a mobile view, because the text seemed to be a variable size. I contacted the discord, facebook, and even stackoverflow. Finally I found a html line on stackoverflow: `<meta name="viewport" content="width=device-width, initial-scale=1.0">` which solved everything in one line.
 #### cube.js
 Brings my algorithm to the user. Based on three.js  
-This is my first time actually writing javascript. It doesn't look pretty, probably breaks all the rules, but it works.
 
 I rewrote this file multiple times. First iterative, that was before I started uploading to github, then functional, and then finally sort of object oriented    
 First I declare all variables that need to be used by more than one function: The materials and geometry for the three.js objects, arrays to store the objects, the axes of rotation, and more.   
