@@ -6,13 +6,13 @@ The final product consists of a shell application, a C library for use in other 
 I decided to create a Rubik's Cube solver because I have made a Sudoku solver before in C++, and the cube was a step up.  
 Instead of a 2d plane, I have a semi-3d plane, with edges and corners.  
 
+[![Watch the video](https://img.youtube.com/vi/ZdpmEC3ea3A/hqdefault.jpg)](https://youtu.be/ZdpmEC3ea3A)
+
 
 ## How to use
 ### Solver
 #### Linux
 Download the bin/solver executable or build from source using `make solver`
-#### OS X
-Download or clone the files from this repository and build using `make solver`
 #### Windows
 Download or clone the files using this repository and compile all .c files in src except for solver_library
 #### All
